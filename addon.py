@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 
 # Imports
-import xbmc, xbmcgui, xbmcplugin, xbmcaddon
+import sys
+import xbmcgui
+import xbmcplugin
+import xbmcaddon
 
 __settings__ = xbmcaddon.Addon(id='plugin.video.watchmojo')
 __icon__ = __settings__.getAddonInfo('icon')
 __language__ = __settings__.getLocalizedString
+
 
 class Main:
   def __init__(self):
