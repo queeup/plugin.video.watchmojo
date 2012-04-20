@@ -13,7 +13,6 @@ __language__ = __settings__.getLocalizedString
 
 class Main:
   def __init__(self):
-    RSS_FEED = 'http://www.watchmojo.com/rss/feeds.php?id=%s&type=mrss&max=all'
     folders = [{'title':__language__(30201), 'id':'01'},
                {'title':__language__(30202), 'id':'02'},
                {'title':__language__(30203), 'id':'03'},
