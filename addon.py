@@ -6,9 +6,9 @@ import xbmcgui
 import xbmcplugin
 import xbmcaddon
 
-__settings__ = xbmcaddon.Addon(id='plugin.video.watchmojo')
-__icon__ = __settings__.getAddonInfo('icon')
-__language__ = __settings__.getLocalizedString
+__addon__ = xbmcaddon.Addon()
+__icon__ = __addon__.getAddonInfo('icon')
+__language__ = __addon__.getLocalizedString
 
 
 class Main:
